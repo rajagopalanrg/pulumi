@@ -1,0 +1,83 @@
+{
+    "version": 3,
+    "deployment": {
+        "manifest": {
+            "time": "2020-11-16T16:40:04.7796138+05:00",
+            "magic": "94592db9536de5e7104a9178d135d36c6df2f321f7c86cf30cb149dc72ed5a8a",
+            "version": "v2.13.2"
+        },
+        "secrets_providers": {
+            "type": "passphrase",
+            "state": {
+                "salt": "v1:JGhl2EPGrtA=:v1:C8QRaK5DA4ASiJF3:qwafajU32F52mtdW4SOL+ejjWyMJ+Q=="
+            }
+        },
+        "resources": [
+            {
+                "urn": "urn:pulumi:azurestack::azurestack::pulumi:pulumi:Stack::azurestack-azurestack",
+                "custom": false,
+                "type": "pulumi:pulumi:Stack"
+            },
+            {
+                "urn": "urn:pulumi:azurestack::azurestack::pulumi:providers:azure::default",
+                "custom": true,
+                "id": "04080548-1ee4-4bab-abea-9c1c85dbe2e7",
+                "type": "pulumi:providers:azure",
+                "inputs": {
+                    "clientId": "457533fd-3799-49f2-a64d-5d8ffb83636b",
+                    "clientSecret": "_RBIso.BIv.s04u4Qg4dGZU~5Io8a1UkeT",
+                    "subscriptionId": "3dc3cd1a-d5cd-4e3e-a648-b2253048af83",
+                    "tenantId": "7c0c36f5-af83-4c24-8844-9962e0163719",
+                    "version": "3.29.1"
+                },
+                "outputs": {
+                    "clientId": "457533fd-3799-49f2-a64d-5d8ffb83636b",
+                    "clientSecret": "_RBIso.BIv.s04u4Qg4dGZU~5Io8a1UkeT",
+                    "subscriptionId": "3dc3cd1a-d5cd-4e3e-a648-b2253048af83",
+                    "tenantId": "7c0c36f5-af83-4c24-8844-9962e0163719",
+                    "version": "3.29.1"
+                }
+            },
+            {
+                "urn": "urn:pulumi:azurestack::azurestack::azure:core/resourceGroup:ResourceGroup::testpulumi",
+                "custom": true,
+                "id": "/subscriptions/3dc3cd1a-d5cd-4e3e-a648-b2253048af83/resourceGroups/testpulumi",
+                "type": "azure:core/resourceGroup:ResourceGroup",
+                "inputs": {
+                    "__defaults": [],
+                    "location": "WestUS",
+                    "name": "testpulumi",
+                    "tags": {
+                        "Created_By": "32943",
+                        "End_Date": "16-Jan-2020",
+                        "Purpose": "test pulumi",
+                        "Start_Date": "16-Nov-2020",
+                        "__defaults": []
+                    }
+                },
+                "outputs": {
+                    "__meta": "{\"e2bfb730-ecaa-11e6-8f88-34363bc7c4c0\":{\"create\":5400000000000,\"delete\":5400000000000,\"read\":300000000000,\"update\":5400000000000}}",
+                    "id": "/subscriptions/3dc3cd1a-d5cd-4e3e-a648-b2253048af83/resourceGroups/testpulumi",
+                    "location": "westus",
+                    "name": "testpulumi",
+                    "tags": {
+                        "Created_By": "32943",
+                        "End_Date": "16-Jan-2020",
+                        "Purpose": "test pulumi",
+                        "Start_Date": "16-Nov-2020"
+                    }
+                },
+                "parent": "urn:pulumi:azurestack::azurestack::pulumi:pulumi:Stack::azurestack-azurestack",
+                "provider": "urn:pulumi:azurestack::azurestack::pulumi:providers:azure::default::04080548-1ee4-4bab-abea-9c1c85dbe2e7",
+                "propertyDependencies": {
+                    "location": [],
+                    "name": [],
+                    "tags": []
+                }
+            }
+        ],
+        "pending_operations": [
+            
+        ]
+    }
+}

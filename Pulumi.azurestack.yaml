@@ -1,0 +1,15 @@
+encryptionsalt: v1:JGhl2EPGrtA=:v1:C8QRaK5DA4ASiJF3:qwafajU32F52mtdW4SOL+ejjWyMJ+Q==
+config:
+  azure:clientId: 457533fd-3799-49f2-a64d-5d8ffb83636b
+  azure:clientSecret:
+    secure: v1:23QDQsNZwgV6N/B7:T20ho91kFw2RHCilmQu9Tib9swTbVo41FY/K8Yr1R0hjrEi9QnXaJSz/w2NpPKEK5XA=
+  azure:subscriptionId: 3dc3cd1a-d5cd-4e3e-a648-b2253048af83
+  azure:tenantId: 7c0c36f5-af83-4c24-8844-9962e0163719
+  azurestack:rgName: euwdhexrsg01
+  azurestack:storageName: euwdhexsta01
+  azurestack:vmName: euwdhexlvm01
+  azurestack:vnetName: euwhexvnt001
+  azurestack:subnetName: euwhexvnt001
+  azurestack:nicName: euwhexnic001
+  azurestack:ipconfig: euwhexipc001
+  vm:name: lvm01
