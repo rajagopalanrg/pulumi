@@ -69,7 +69,7 @@ func main() {
 			ResourceGroupName:  resourceGroup.Name,
 			VirtualNetworkName: virtualNetwork.Name,
 			AddressPrefixes: pulumi.StringArray{
-				pulumi.String("10.0.6.0/24"),
+				pulumi.String("10.0.7.0/24"),
 			},
 		})
 		if err != nil {
